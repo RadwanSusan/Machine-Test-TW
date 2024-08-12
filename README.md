@@ -18,7 +18,7 @@ Machine Test is a React-based web application that allows users to explore count
 
 1. Clone the repository:
 
--  git clone https://github.com/your-username/countries-explorer.git
+-  git clone https://github.com/RadwanSusan/Machine-Test-TW.git
 
 2. Navigate to the project directory:
 
