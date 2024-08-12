@@ -1,0 +1,32 @@
+.custom-alert {
+	position: fixed !important;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	min-width: 350px;
+	max-width: 80%;
+	text-align: center;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 12px 20px;
+	animation: slideDown 0.3s ease-out;
+}
+@keyframes slideDown {
+	from {
+		top: -50px;
+		opacity: 0;
+	}
+	to {
+		top: 20px;
+		opacity: 1;
+	}
+}
+.custom-alert .close {
+	font-size: 1.1rem;
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+.custom-alert .close:hover {
+	opacity: 1;
+}
