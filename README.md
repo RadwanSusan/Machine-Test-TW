@@ -30,7 +30,7 @@ Machine Test is a React-based web application that allows users to explore count
 
 ## Running the Application
 
-1. Start the development server:
+1. Start the development server: npm run dev
 
 2. Open your browser and visit `http://localhost:5173` to view the application.
 
